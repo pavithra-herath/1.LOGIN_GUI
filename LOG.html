@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href=" LOGIN_GUI/LOG.css">
+  <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+      
+
+.{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+  background: #6d3bf5;
+}
+.wrapper{
+  display: flex;
+  max-width: 650px;
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.wrapper .left,
+.wrapper .right{
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+}
+
+.wrapper .left{
+  background: #3be9f5;
+}
+
+.wrapper .left h3{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  font-size: 15px;
+}
+.wrapper .left img{
+  display: block;
+  width: 290px;
+  margin: 0px auto 0;
+}
+
+.wrapper .right{
+  background: #fff;
+
+}
+.wrapper .right .input_field{
+  margin-bottom: 15px;
+}
+.wrapper .right .input_field .input{
+  width: 100%;
+  padding: 8px 10px;
+  border: 0;
+  font-size: 12px;
+  background: #ecebeb;
+   border-radius: 18px; 
+
+}
+.wrapper .right .btn{
+  margin-top: 0px;
+  background: #1246f0;
+  padding: 4px;
+  text-align: center;
+  border-radius: 18px; 
+color: #ecedf0;
+  font-weight: bold;
+  }
+
+  </style>
+  <script type="text/javascript">
+    $(document).ready(function){
+
+  
+  </script>
+</head>
+<div class="wrapper">
+  <div class="left">
+      <h3>Software as a Service</h3><br> 
+      
+
+
+
+       <!-- image -->
+    <img src="login2.jpg" alt="Laptop_image">
+  </div>
+  <div class="right">
+    <div class="tabs">
+      
+      <h2 align="center" >Welcome Back!</h2>
+      
+    </div>
+    
+    <!-- Login form -->
+    
+    <div class="login">
+      <div class="input_field">
+        <input type="text" placeholder="abcd@gmail.com" class="input">
+        <br>
+        
+      </div>
+      <div class="input_field">
+        <input type="password" placeholder="********" class="input"   border-radius="10px";>
+      </div>
+      
+      <!-- Check box-->
+      <div><input type="checkbox" class="form-check-input" id="exampleCheck1" >
+       <label class="form-check-label" for="exampleCheck1">Remember Me</label></div>
+       <!-- Login Button -->
+      <div class="btn">
+        <a type="submit" class="btn btn-primary">Login</a>
+    </div>
+
+    <br>
+    <div class="link" style="text-align:center"  >
+
+      <!-- text-decoration property to remove
+        underline from anchor tag -->
+    <a href="#" style=" text-decoration: none"> Forgot Password?</a><br>
+    
+    <a href="#" style=" text-decoration: none">Create an Account!</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
